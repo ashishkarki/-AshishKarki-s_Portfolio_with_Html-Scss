@@ -1,3 +1,32 @@
+@include media-sm {
+  .about__bio {
+    font-size: 1.2rem;
+  }
+
+  .jobs {
+    &__job {
+      font-size: 1rem;
+    }
+
+    .text-secondary {
+      font-size: 1.2rem;
+    }
+  }
+
+  .home {
+    footer {
+      transform: rotate(90deg) translate(-22rem, -5rem);
+    }
+
+    .social-icons {
+      position: fixed;
+      top: 15px;
+      left: 25px;
+      font-size: smaller;
+    }
+  }
+}
+
 @include media-md {
   .menu-btn {
     visibility: hidden;

@@ -428,6 +428,28 @@
           transform: rotate(90deg) translate(-3rem, -5rem);
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .about__bio {
+    font-size: 1.2rem;
+  }
+  .jobs__job {
+    font-size: 1rem;
+  }
+  .jobs .text-secondary {
+    font-size: 1.2rem;
+  }
+  .home footer {
+    -webkit-transform: rotate(90deg) translate(-22rem, -5rem);
+            transform: rotate(90deg) translate(-22rem, -5rem);
+  }
+  .home .social-icons {
+    position: fixed;
+    top: 15px;
+    left: 25px;
+    font-size: smaller;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .menu-btn {
     visibility: hidden;
